@@ -1,0 +1,252 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-nav{
+	float: right;
+}
+.navbar-default{
+	background-color: #fff;
+}
+.navbar{
+	min-height: 80px;
+}
+.navbar-default .navbar-nav>li>a{
+	line-height: 45px;
+	font-size: 17px;
+}
+.navbar-brand{
+	padding-top: 30px;
+}
+.contact-btn, .contact-btn:hover{
+	color: #3bb9bb;
+	margin: 15px 0;
+	padding: 10px 20px;
+	font-size: 1.1em;
+	border: 2px solid #abe3e4;
+	border-radius: 22px;
+}
+.contact-btn:hover{
+	border-color: #3bb9bb;
+}
+.navbar-default .navbar-nav>li.hiden-btn{
+	display: none;
+}
+/***********NAV END***********/
+.deliver-background{
+	background-image: url('../img/meeting2.jpg');
+	height: 100%;
+	background-size: cover;
+	color: #fff;
+	padding-bottom: 90px;
+}
+.deliver-background .container h1{
+	margin-top: 340px;
+	font-size: 46px;
+}
+.deliver-background .container p{
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+.demo-btn,
+.learn-more-btn{
+	padding: 13px;
+	font-size: 1.3em;
+}
+.demo-btn{
+	border: #df3243 solid 2px;
+}
+.learn-more-btn,
+.learn-more-btn:hover{
+	background-color:transparent;
+}
+.learn-more-btn{
+	border: 2px solid rgba(255,255,255,0.4);
+	color: #fff;
+}
+.learn-more-btn:hover{
+	border: 2px solid #fff;
+	color: #fff;
+}
+/***********Deliver-Background END***********/
+.customer-bar{
+	background: #ECF0F1;
+	margin-bottom: 50px;
+}
+.customer-bar .container img{
+	margin:30px 0;
+}
+.thumbnail{
+  border: none;
+  background: transparent;
+}
+.thumbnail img{
+	float: left;
+	margin-right: 25px;
+}
+.benefits-section h1{
+	margin-bottom: 60px;
+	font-size: 30px;
+}
+.benefits-section h4{
+	color: #3bb9bb;
+}
+.our-features-btn{
+	background: transparent;
+	border: 2px solid #abe3e4;
+	color: #3bb9bb;
+	padding: 12px;
+	font-size: 18px;
+	margin-bottom: 50px;
+}
+.our-features-btn:hover{
+	border: 2px solid #3bb9bb;
+	color: #3bb9bb;
+	background: transparent;
+}
+.customerquotes-wrapper{
+	width: 100%;
+	background-image: url('../img/beach.jpg');
+}
+.rgba-bg{
+	width: 100%;
+	background-color: rgba(0,0,0,0.6);
+	color: #fff;
+}
+.customerquotes-wrapper img{
+	border-radius: 50%;
+	margin-top: 35px;
+}
+.margin{
+	margin: 60px 0;
+}
+.customerquotes-wrapper h2{
+	font-size: 1.7em;
+	line-height: 36px;
+}
+.customerquotes-wrapper p{
+	font-size: 1em;
+	color: rgba(255,255,255,.5);
+}
+.promobar{
+	background: #ECF0F1;
+	padding: 50px 0;
+}
+.promobar h1{
+	padding-bottom: 20px;
+}
+.promodark{
+	background-color: #414F59;
+	padding: 70px 0;
+}
+.promodark .caption h3{
+	color:#3bb9bb;
+}
+.promodark .caption p{
+	color: #fff;
+}
+.ebook-btn{
+	background-color: transparent;
+	border: 2px rgba(255,255,255,0.2) solid;
+	color: rgba(255,255,255,0.4);
+}
+.ebook-btn:hover{
+	background-color: transparent;
+	border: 2px rgba(255,255,255,0.4) solid;
+	color: rgba(255,255,255,0.4);
+}
+.content-info{
+	background-color: #3BB9BB;
+	padding: 70px 0;
+}
+.fb-box,
+.insta-box,
+.twt-logo{
+	background-image: url('../img/social-logoes.png');
+	background-size: cover;
+	width: 50px;
+	height: 50px;
+	margin-left: 20px;
+	float: left;
+	cursor: pointer;
+}
+.insta-box{
+	background-position: 50px 0;
+}
+.twt-logo{
+	background-position: -120px 0;
+}
+
+@media (max-width: 768px) {
+	.navbar-nav{
+	    float: none;
+	 	text-align: center;
+	 	border: none;
+}
+	.navbar-default .navbar-collapse{
+		border: solid 1px rgba(59, 185, 187, .2);
+		background-color: rgba(59, 185, 187, .1);
+}
+	.navbar-toggle{
+		padding: 25px 10px;
+		margin-right: 25px;
+	}
+	.navbar-brand>img{
+		margin-left: 20px;
+	}
+	.navbar-default .navbar-nav>li>a{
+		line-height: 10px;
+	}
+	.navbar-default .navbar-nav>li.hiden-btn{
+		display: block;
+	}
+	.contact-btn{
+		display: none;
+	}
+	.navbar-default .navbar-nav>li>a:hover{
+		font-size: 19px;
+
+	}
+	/****NAV SMALL DEVICES END****/
+	.demo-btn,
+	.learn-more-btn{
+		font-size: .5em;
+	}
+	.learn-more-btn{
+		
+	}
+	.deliver-background .container h1{
+		margin-top: 240px;
+		font-size: 36px;
+	}
+	.deliver-background .container p{
+		font-size: 12px;
+	}
+	.customerquotes-wrapper h2{
+	font-size: 1.2em;
+	line-height: 26px;
+}
+.customerquotes-wrapper p{
+	font-size: .75em;
+}
+.promodark .caption h3{
+	font-size: 1.2em;
+}
+.promodark .caption p{
+	font-size: .75em;
+}
+.promodark img{
+	width: 100px;
+	margin-top: 50px;
+}
+.our-features-btn{
+	font-size: 10px;
+}
+.our-features-btn span{
+	display: block;
+}
+.promobar h1{
+	font-size: 16px;	
+}
+}
